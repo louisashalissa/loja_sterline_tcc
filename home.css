@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #FF7C9E;
+    padding: 20px;
+    text-align: center;
+    color: #FEFDFA;
+  }
+
+  .header h1{
+    margin-left: 0px;
+  }
+
+  .header img{
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin-left: 0px;
+  }
+
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #831A39;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #FFAAFC;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #FFAAFC;
+  }
+
+.banner-produto {
+     text-align: center;
+     background-color: #418793;
+     overflow: hidden;
+}
+
+.slideshow-container{
+  margin: auto;
+  display: flex;
+}
+
+.mySlides{
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #FFAAFC;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #831A39;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+.footer {
+  background-color: #831A39;
+  padding: 20px;
+  text-align: right;
+  bottom: 0;
+  }
+
+  .footer a {
+    float: left;
+    display: block;
+    color: #FFAAFC;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .troca{
+    float: right;
+    display: block;
+    color: #FFAAFC;
+    text-align: center;
+    text-decoration: none;
+  }
+
+

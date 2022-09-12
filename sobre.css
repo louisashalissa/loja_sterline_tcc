@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #FF7C9E;
+    padding: 20px;
+    text-align: center;
+    color: #FEFDFA;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: #831A39;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #FFAAFC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #FFAAFC;
+  }
+
+  .conteudo {
+    text-align: center;
+    color: #831A39;
+  }
+
+  .footer {
+    background-color: #831A39;
+        padding: 20px;
+        text-align: right;
+        margin-top: 200px;
+        position: block;
+    }
+  
+    .troca{
+      float: right;
+      display: block;
+      color: #FFAAFC;
+      text-align: center;
+      text-decoration: none;
+    }
